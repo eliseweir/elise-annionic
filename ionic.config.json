@@ -1,0 +1,7 @@
+{
+  "name": "elise-annionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
