@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+}
+
+ion-content {
+  --background: none;
+  background-image: url(../../assets/background/triangle-grp.png);
+  background-color: #e1cdf5;
+  background-size: 150%;
+  background-position: center center;
+  background-blend-mode: soft-light;
+}
+
+ion-footer {
+  background-color: #3880ff;
+
+  ion-card-header {
+    --background: #c7a5eb;
+  }
+}
