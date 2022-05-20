@@ -2,13 +2,25 @@ a {
   text-decoration: none;
 }
 
+ion-header {
+  ion-toolbar {
+    padding: 0.25rem;
+
+    ion-title {
+      text-align: center;
+    }
+  }
+}
+
 ion-content {
   --background: none;
-  background-image: url(../../assets/background/triangle-grp.png);
-  background-color: #e1cdf5;
-  background-size: 150%;
+  background-image: url(../../assets/background/triangle-grp-horizontal.png);
   background-position: center center;
-  background-blend-mode: soft-light;
+  background-size: cover;
+
+  @media screen and (orientation:portrait) {
+    background-image: url(../../assets/background/triangle-grp-vertical.png);
+  }
 }
 
 ion-footer {
