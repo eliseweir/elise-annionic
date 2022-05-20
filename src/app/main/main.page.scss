@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+
+ion-header {
+  ion-toolbar {
+    padding: 0.25rem;
+
+    ion-title {
+      text-align: center;
+    }
+  }
+}
+
+ion-content {
+  --background: none;
+  background-image: url(../../assets/background/triangle-grp-horizontal.png);
+  background-position: center center;
+  background-size: cover;
+
+  @media screen and (orientation:portrait) {
+    background-image: url(../../assets/background/triangle-grp-vertical.png);
+  }
+}
+
+ion-footer {
+  background-color: #3880ff;
+
+  ion-card-header {
+    --background: white;
+    color: #c7a5eb;
+  }
+
+  ion-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #c7a5eb;
+
+    ion-icon {
+      color: white;
+      font-size: 32px;
+    }
+  }
+}
